@@ -1,7 +1,7 @@
 load("@rules_zig//zig:defs.bzl", "zig_library")
 
 zig_library(
-    name = "library",
+    name = "base32",
     srcs = glob(["src/**/*.zig"]),
     main = "src/base32.zig",
 )
